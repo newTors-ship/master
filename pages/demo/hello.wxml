@@ -1,0 +1,14 @@
+<view hidden="{{flag?true:false}}">
+  <text>{{name}}</text>
+  <view wx:if="{{condition==1}}">饺子</view>
+  <view wx:elif="{{condition==2}}">面条</view>
+  <view wx:else>馒头</view>
+  <view class="container" style="width:500rpx;height:30px;background-color:{{corlorValue}};">
+    container!!
+  </view>
+  <block wx:for="{{items}}" wx:for-item="item" wx:key="index">
+    <view>{{index}}:{{item.name}}</view>
+  </block>
+</view>
+
+

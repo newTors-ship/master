@@ -1,0 +1,9 @@
+<view class="cntainerA" bindtap="clickA">
+cntainerA
+  <view class="cntainerB" bindtap="clickB">
+    cntainerB
+    <view class="cntainerC" bindtap="clickC">
+    cntainerC
+    </view>
+  </view>
+</view>
